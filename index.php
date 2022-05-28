@@ -1,8 +1,8 @@
 <?php
     require_once "config.php";
     require_once "pagination.php";
-	error_reporting(E_ALL);
-	ini_set('display_errors', 'on');
+    error_reporting(E_ALL);
+    ini_set('display_errors', 'on');
 ?>
 <!DOCTYPE html>
 <html lang="ru">

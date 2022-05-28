@@ -1,11 +1,6 @@
 <?php
     require_once "config.php";
 
-    if (!empty($_POST)) {
-        echo $_POST;
-    }
-    
-
     if (isset($_REQUEST["first_name"]) and isset($_REQUEST["last_name"]) and isset($_REQUEST["middle_name"])
         and isset($_REQUEST["email"]) and isset($_REQUEST["phone"]) and isset($_REQUEST["comment"])) {
             

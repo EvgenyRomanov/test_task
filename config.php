@@ -3,9 +3,9 @@
 	$user = 'root';      
 	$pass = '';          
 	$name = 'test';
-	
+
 	$link = mysqli_connect($host, $user, $pass, $name);
-    if ($link == false) {
-        print("Ошибка подключения: " . mysqli_connect_error());
-    }
+	if ($link == false) {
+		print("Ошибка подключения: " . mysqli_connect_error());
+	}
 ?>
